@@ -1,0 +1,59 @@
+@import "sass/normalize.scss";
+@include normalize();
+
+$bgColor: #D6E6D6;
+$divColor: #ADCFAD;
+$textBlockColor: #569756;
+$maxW: 95%;
+$font: 'Droid Sans', sans-serif;
+
+body {
+  background: $bgColor;
+  font-family: $font;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.nav {
+  background: $divColor;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mainArticles {
+  background: $textBlockColor;
+  font-size: .5em;
+  width: 50%;
+  flex: 1 0 250px;
+}
+
+.imageGrid {
+  @extend .flexContainer;
+}
+
+.child {
+  flex: 1 0 33%;
+  min-width: 10rem;
+}
+
+.footer {
+  @extend .nav;
+  padding: 5px;
+}
+
+#slider {
+  margin: 0;
+  padding: 0;
+}
