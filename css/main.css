@@ -395,7 +395,7 @@ textarea {
   overflow: auto; }
 
 body {
-  font-family: "Hind Siliguri", sans-serif; }
+  font-family: "Inconsolata", monospace; }
 
 h1, h3, h6 {
   margin: 0 auto;
@@ -449,7 +449,10 @@ a {
 #slider {
   margin: 0 auto;
   padding: 0;
-  width: 40%; }
+  width: 70%; }
+  @media (max-width: 500px) {
+    #slider {
+      width: 100%; } }
 
 .highlight {
   font-weight: bold; }

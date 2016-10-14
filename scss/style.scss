@@ -5,7 +5,7 @@ $bgColor: #D6E6D6;
 $divColor: rgba(76, 175, 80, 0.3);
 $textBlockColor: #569756;
 $maxW: 95%;
-$font: 'Hind Siliguri', sans-serif;
+$font: 'Inconsolata', monospace;
 
 body {
   font-family: $font;
@@ -76,7 +76,10 @@ a {
 #slider {
   margin: 0 auto;
   padding: 0;
-  width: 40%;
+  width: 70%;
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 }
 
 .highlight {
