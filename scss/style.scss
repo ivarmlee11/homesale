@@ -28,12 +28,12 @@ img {
 .nav {
   background: $divColor;
   width: 100%;
-  margin: 0 auto;
   text-align: center;
 }
 
 .flexContainer {
   display: flex;
+  margin: 0 auto;
   flex-flow: row wrap;
 }
 
@@ -62,7 +62,7 @@ img {
 }
 
 .child {
-  flex: 1 0 33%;
+  flex: 1 0 50%;
   min-width: 10rem;
 }
 

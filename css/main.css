@@ -411,11 +411,11 @@ img {
 .nav, .footer {
   background: rgba(76, 175, 80, 0.3);
   width: 100%;
-  margin: 0 auto;
   text-align: center; }
 
 .flexContainer, .imageGrid {
   display: flex;
+  margin: 0 auto;
   flex-flow: row wrap; }
 
 .mainArticles {
@@ -437,7 +437,7 @@ img {
   background: rgba(76, 175, 80, 0.3); }
 
 .child {
-  flex: 1 0 33%;
+  flex: 1 0 50%;
   min-width: 10rem; }
 
 .footer {
