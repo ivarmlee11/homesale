@@ -36,6 +36,12 @@ span {
   display: inline-block;
 }
 
+// .moveList {
+//   @media (max-width: 500px) {
+//     // margin-left: -10px;
+//   }
+// }
+
 .centerText {
   font-size: 1em;
   font-weight: bold;
@@ -70,7 +76,7 @@ span {
 }
 
 .imageGrid {
-  width: 60%;
+  width: 80%;
   @extend .flexContainer;
 }
 
