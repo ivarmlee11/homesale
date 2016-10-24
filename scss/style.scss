@@ -36,11 +36,13 @@ span {
   display: inline-block;
 }
 
-// .moveList {
-//   @media (max-width: 500px) {
-//     // margin-left: -10px;
-//   }
-// }
+.moveList {
+  // @media (max-width: 500px) {
+  //   // margin-left: -10px;
+  // }
+  margin: 0 auto;
+  padding-left: 10px;
+}
 
 .centerText {
   font-size: 1em;

@@ -415,6 +415,10 @@ a {
 span {
   display: inline-block; }
 
+.moveList {
+  margin: 0 auto;
+  padding-left: 10px; }
+
 .centerText {
   font-size: 1em;
   font-weight: bold;
